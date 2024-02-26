@@ -1,0 +1,82 @@
+.header_area .logo_area {
+  background-color: #07245F;
+  padding-left: 20%;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+}
+.header_area .logo_area img {
+  padding: 30px 0;
+}
+
+.nav_bg {
+  padding-right: 20%;
+}
+
+.menu_bg {
+  background-color: #FFFFFF;
+}
+
+.top_bar {
+  background-color: #0E3DD8;
+  padding-right: 20% !important;
+  -webkit-clip-path: polygon(1% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(1% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.top_bar_services div {
+  padding-right: 20px;
+  margin-top: 5px;
+}
+.top_bar_services div a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.top_bar_services div a i {
+  padding-right: 8px;
+}
+
+.top_bar_user .dropdown .btn {
+  background-color: #0E3DD8;
+  border: none;
+}
+.top_bar_user .dropdown .btn:focus {
+  background-color: #0E3DD8;
+}
+.top_bar_user a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+
+.dropdown-item {
+  color: #07245F !important;
+}
+
+.nav_logo {
+  padding-left: 0 !important;
+}
+
+.nav_area {
+  background-color: #FFFFFF;
+  padding-right: 10% !important;
+}
+.nav_area .menu {
+  margin: 10px 0;
+}
+.nav_area .menu nav div ul li a {
+  color: #07245F !important;
+}
+
+.nav_extended {
+  margin-top: 20px;
+}
+.nav_extended a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 3px;
+}
+.nav_extended .menu_button {
+  background-color: #FF6B00;
+  padding: 10px 20px;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
