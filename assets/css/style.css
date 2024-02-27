@@ -4,25 +4,24 @@
   -webkit-clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
           clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
 }
-.header_area .logo_area img {
-  padding: 30px 0;
-}
-
-.nav_bg {
-  padding-right: 20%;
+.header_area .logo_area .logo {
+  padding: 30px;
 }
 
 .menu_bg {
   background-color: #FFFFFF;
+  padding: 0 !important;
 }
 
 .top_bar {
   background-color: #0E3DD8;
-  padding-right: 20% !important;
   -webkit-clip-path: polygon(1% 0%, 100% 0%, 100% 100%, 0% 100%);
           clip-path: polygon(1% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
+.top_bar_services {
+  padding-left: 20px;
+}
 .top_bar_services div {
   padding-right: 20px;
   margin-top: 5px;
@@ -35,6 +34,9 @@
   padding-right: 8px;
 }
 
+.top_bar_user {
+  padding-right: 10% !important;
+}
 .top_bar_user .dropdown .btn {
   background-color: #0E3DD8;
   border: none;
@@ -69,6 +71,8 @@
 
 .nav_extended {
   margin-top: 20px;
+  display: flex;
+  justify-content: end;
 }
 .nav_extended a {
   color: #FFFFFF;
@@ -79,4 +83,7 @@
   background-color: #FF6B00;
   padding: 10px 20px;
   border-radius: 20px;
+}
+.nav_extended .nav_bar_bar {
+  margin-top: 6px;
 }/*# sourceMappingURL=style.css.map */

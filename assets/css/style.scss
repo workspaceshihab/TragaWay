@@ -2,9 +2,12 @@ $primary_color: #07245F;
 $white_color: #FFFFFF;
 $button_color: #FF6B00;
 $topbar_color: #0E3DD8;
-;
 
-// Header Area 
+
+
+
+
+// 1. Header Area 
 // logo area 
 .header_area {
     // background-color: $primary_color;
@@ -16,28 +19,26 @@ $topbar_color: #0E3DD8;
         clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
 
 
-        img {
-            padding: 30px 0;
+        .logo {
+            padding: 30px;
         }
     }
 }
 
-.nav_bg {
-    padding-right: 20%;
-}
-
 .menu_bg {
     background-color: $white_color;
+    padding: 0 !important;
 }
 
 // topbar services area 
 .top_bar {
     background-color: $topbar_color;
-    padding-right: 20% !important;
+    // padding-right: 20% !important;
     clip-path: polygon(1.0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .top_bar_services {
+    padding-left: 20px;
 
     div {
         padding-right: 20px;
@@ -57,6 +58,8 @@ $topbar_color: #0E3DD8;
 // topbar User Area
 
 .top_bar_user {
+    padding-right: 10% !important;
+
     .dropdown {
         .btn {
             background-color: $topbar_color;
@@ -78,9 +81,6 @@ $topbar_color: #0E3DD8;
 .dropdown-item {
     color: $primary_color !important;
 }
-
-
-
 
 // Menu 
 .nav_logo {
@@ -109,17 +109,16 @@ $topbar_color: #0E3DD8;
     }
 }
 
-
-
 // navbar extend 
 .nav_extended {
     margin-top: 20px;
+    display: flex;
+    justify-content: end;
 
     a {
         color: $white_color;
         text-decoration: none;
         margin: 0 3px;
-
     }
 
     .menu_button {
@@ -127,4 +126,10 @@ $topbar_color: #0E3DD8;
         padding: 10px 20px;
         border-radius: 20px;
     }
+
+    .nav_bar_bar {
+        margin-top: 6px;
+    }
 }
+
+// 2. Hero Area
