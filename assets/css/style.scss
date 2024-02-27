@@ -133,3 +133,92 @@ $topbar_color: #0E3DD8;
 }
 
 // 2. Hero Area
+
+
+
+
+// Footer area 
+.footer {
+    background-image: url("/assets/img/Footer.png");
+    padding: 40px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .content {
+        color: $white;
+        padding-top: 15px;
+    }
+
+    a,
+    p,
+    footer-tittle {
+        text-decoration: none;
+        color: $white;
+    }
+
+    .footer-content {
+        padding-top: 30px;
+
+        ul {
+            display: grid;
+            gap: 5px;
+            padding-left: 0px;
+
+            li {
+                list-style: none;
+            }
+        }
+
+        input {
+            padding: 10px;
+            border-radius: 25px;
+            border: none;
+            width: 100%;
+            margin-bottom: 15px;
+            color: $white;
+            background-color: #203453;
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 25px;
+            border: none;
+            background-color: $primaryBg;
+            color: $white;
+        }
+
+    }
+}
+
+.inner-copyright-text {
+    background: #132847;
+    text-align: center;
+    padding: 10px;
+    color: $white;
+
+    p {
+        margin-bottom: 0px;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+.inner-copyright-privacy {
+    background: $primaryBg;
+    text-align: center;
+    padding: 10px;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
